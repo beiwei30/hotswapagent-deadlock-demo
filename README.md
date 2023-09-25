@@ -1,4 +1,4 @@
-# hotswapagent-deadlock-demo
+## hotswapagent-deadlock-demo
 
 Run this demo with JVM option "-XX:+AllowEnhancedClassRedefinition -XX:HotswapAgent=external -javaagent:/your-hotswap-agent.jar-location=autoHotswap=true -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=localhost:8000", and it is possible to hit the deadlock below.
 
